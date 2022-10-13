@@ -443,4 +443,3 @@ assert.equal(qs.stringify({ a: 'b c' }), 'a=b%20c');
 assert.equal(qs.stringify({ a: 'b c' }, { format : 'RFC3986' }), 'a=b%20c');
 assert.equal(qs.stringify({ a: 'b c' }, { format : 'RFC1738' }), 'a=b+c');
 ```
-### PS: 因用到了qs.js,但官方文档纯英文,故边翻译边学习,大部分未经实验,均为官方示例,如有错误及理解不到位,感谢指正
